@@ -8,5 +8,12 @@
 }
 
 html {
-  background-color: grey
+ background-image: url("Court.jpg");
+ background-color: #cccccc;
+ background-size: 125%
 }
+
+img {  
+max-width: 12.5%;  
+height: auto;  
+}  
