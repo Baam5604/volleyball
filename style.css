@@ -10,15 +10,15 @@
 html {
  background-image: url("Court.jpg");
  background-color: #cccccc;
- background-size: 100%
+ background-size: 75%
 }
 
 img.ball {  
-max-width: 7.5%;  
+max-width: 3.75%;  
 height: auto;  
 } 
 
 img.animated-gif {
-  width: 300px;
-  height: auto;
+max-width: 25%;
+height: auto;
 }
