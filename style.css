@@ -15,11 +15,22 @@ html {
 
 img.ball {  
 max-width: 3.75%; 
-transform: rotate(90deg) **FIX THIS CODE AND MAKE IT INTO AN ANIMATION TO SPIN THE BALL**
+animation: rotation 1s infinite linear;
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 img.animated-gif {
 max-width: 25%;
 height: auto;
 }
+
 
