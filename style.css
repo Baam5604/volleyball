@@ -10,13 +10,16 @@
 html {
  background-image: url("Court.jpg");
  background-color: #cccccc;
- background-size: 75%
+ background-size: 100%;
+height: 1024px;
+width: 1024px;
 }
 
 img.ball {  
-max-width: 3.75%; 
-animation: rotation 1s infinite linear;
-}
+position: absolute;
+max-width: 2.5%; 
+animation: move 5s linear both infinite alternate, rotation 0.75s infinite linear;
+} **FIX THISSSSSS**
 
 
 @keyframes rotation {
@@ -28,8 +31,13 @@ animation: rotation 1s infinite linear;
   }
 }
 
+@keyframes move {
+    from{transform: translateX(200px);}
+    to{transform: translateX(800px);}
+}
+
 img.animated-gif {
-max-width: 25%;
+max-width: 37.5%;
 height: auto;
 }
 
