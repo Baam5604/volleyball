@@ -14,11 +14,12 @@ html {
 }
 
 img.ball {  
-max-width: 3.75%;  
-height: auto;  
-} 
+max-width: 3.75%; 
+transform: rotate(90deg) **FIX THIS CODE AND MAKE IT INTO AN ANIMATION TO SPIN THE BALL**
+}
 
 img.animated-gif {
 max-width: 25%;
 height: auto;
 }
+
